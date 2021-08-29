@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // background: #14213d !important;
+    background: hsla(354, 95%, 24%, 1);
+    background: linear-gradient( 90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+    background: -moz-linear-gradient( 90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+    background: -webkit-linear-gradient( 90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
+    background-attachment: fixed;
+}
+
+.card-poster {
+    transition: transform 450ms;
+    &:hover {
+        border: 5px solid goldenrod !important;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
