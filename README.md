@@ -1,4 +1,4 @@
-# learn-vue
+# moviedb-finder-vuejs
 
 ## Project setup
 ```
